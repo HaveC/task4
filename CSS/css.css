@@ -1,0 +1,91 @@
+
+.container{
+    margin: 0 auto;
+    width: 720px;
+    height: auto;
+    background: #f0f2f3;
+    min-height: 960px;
+}
+.container{
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding-bottom:
+}
+ .header{
+    background: #5fc0cd  scroll center top;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    height: 86px;
+}
+.header a{
+    color: #ffffff;
+}
+.ls {
+    float: left;
+    line-height: 90px;
+    font-size: 40px;
+
+}
+h1{
+    padding: 22px;
+    font-size: 50px;
+    text-align: center;
+}
+.rs{
+    font-size: 40px;
+    color: #ffffff;
+    float: right;
+    line-height: 90px;
+}
+.row {
+    width: 600px;
+    line-height: 
+    padding:18px 0;
+    position: relative;
+    }
+.input-user{
+    margin:18px 0 9px;
+    width: 632px;
+    height: 100px;
+    padding-left: 85px;
+    background: #fff url(../images/iphone.png) no-repeat scroll left center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 50px;
+    background-position: 30px;
+}
+.input-password{
+    margin:9px 0 9px;
+    width: 632px;
+    height: 100px;
+    padding-left: 85px;
+    background: #fff url(../images/pass.png) no-repeat scroll left center;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    font-size: 50px;
+    background-position: 30px;
+}
+.buttonArea{
+    margin-top: 62px;
+}
+.submit{
+    display: block;
+    height: 100px;
+    width: 720px;
+    line-height: 100px;
+    color: #fff;
+    background:#5fc0cd;
+    border:1px solid #5fc0cd;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 50px;
+}
+.tips{
+    margin-top: 22px;
+    margin-left: 546px;
+    font-size: 25px;
+    
+}
+.tips a{
+    color: #5fc0cd;
+}
