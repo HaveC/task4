@@ -1,91 +1,101 @@
 
 .container{
-    margin: 0 auto;
-    width: 720px;
-    height: auto;
-    background: #f0f2f3;
-    min-height: 960px;
-}
-.container{
-    border: 1px solid #cccccc;
-    border-radius: 3px;
-    padding-bottom:
+    width: 100%;
+    overflow: hidden;
 }
  .header{
-    background: #5fc0cd  scroll center top;
+    position: fixed;
+    line-height: 3rem;
+    height:3rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0 0 0.5rem 0;
+    background: #5fc0cd;
     color: #fff;
     border-radius: 3px 3px 0 0;
-    height: 86px;
+    text-align: center;
 }
 .header a{
     color: #ffffff;
 }
 .ls {
+    display: inline-block;
     float: left;
-    line-height: 90px;
-    font-size: 40px;
-
+    line-height: 3rem;
+    font-size:1.5rem;
 }
 h1{
-    padding: 22px;
-    font-size: 50px;
+    display: inline-block;
+    line-height: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 .rs{
-    font-size: 40px;
+    display: inline-block;
+    font-size:1.5rem;
     color: #ffffff;
     float: right;
-    line-height: 90px;
+    line-height: 3rem;
+}
+.blank{
+    height: 3rem;
 }
 .row {
-    width: 600px;
-    line-height: 
-    padding:18px 0;
-    position: relative;
+    width: 100%; 
+    
     }
 .input-user{
-    margin:18px 0 9px;
-    width: 632px;
-    height: 100px;
-    padding-left: 85px;
+    margin:0.5rem 0 0.35rem;
+    width: 100%;
+    height: 3rem;
+    padding-left: 5.3rem;
     background: #fff url(../images/iphone.png) no-repeat scroll left center;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
-    font-size: 50px;
+    font-size: 1.5rem;
+    color: gray;
     background-position: 30px;
 }
 .input-password{
-    margin:9px 0 9px;
-    width: 632px;
-    height: 100px;
-    padding-left: 85px;
+    margin:0.35rem 0 0.56rem;
+    width: 100%;
+    height: 3rem;
+    color: gray;
+    padding-left: 5.3rem;
     background: #fff url(../images/pass.png) no-repeat scroll left center;
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    font-size: 50px;
+    font-size: 1.5rem;
     background-position: 30px;
 }
 .buttonArea{
-    margin-top: 62px;
+    margin-top: 2rem;
 }
 .submit{
-    display: block;
-    height: 100px;
-    width: 720px;
-    line-height: 100px;
+    display: inline-block;
+    height: 3rem;
+    width: 100%;
+    line-height:3rem;
     color: #fff;
     background:#5fc0cd;
     border:1px solid #5fc0cd;
     border-radius: 3px;
     text-align: center;
-    font-size: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.submit:active{
+    background: #007fff;
 }
 .tips{
-    margin-top: 22px;
-    margin-left: 546px;
-    font-size: 25px;
-    
+    display: block;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;  
+    text-align: right;  
 }
 .tips a{
-    color: #5fc0cd;
+   color: #5fc0cd;
+    
 }
